@@ -1,0 +1,16 @@
+{
+  "name": "nioqa",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "preview": "node preview/serve.mjs",
+    "build": "node preview/build.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "2.89.0"
+  }
+}
